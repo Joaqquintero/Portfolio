@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Valen</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+
+    
+</head>
+<body>
+    
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#">Rafael</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#about">Sobre Mi</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills">Tecnologías</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact">Contáctame</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- HEADER -->
+    <header class="hero text-center text-white d-flex align-items-center justify-content-center">
+        <div>
+            <h1 class="display-3 fw-bold animated-text">¡Hola, soy Rafa!</h1>
+            <p class="lead animated-text">QA Tester & Estudiante de Full Stack</p>
+            <a href="#projects" class="btn btn-primary btn-lg mt-3 animated-btn">Ver Proyectos</a>
+        </div>
+    </header>
+    
+    <!-- ABOUT ME -->
+    <section id="about" class="container my-5 text-center">
+        <h2 class="fw-bold animated-heading">Sobre Mí</h2>
+        <p class="">Soy un estudiante de Full Stack Development con conocimientos en desarrollo web (HTML, CSS, JavaScript, Node.js) y control de versiones con Git. Me interesa la calidad del software, por lo que también me certifiqué en QA Manual, adquiriendo experiencia en pruebas funcionales, exploratorias y reporte de bugs con herramientas como JIRA y POSTMAN. Conocimiento en Testing Automatizado con Cypress con JavaScript. Mi formación en ambas áreas me permite comprender el proceso completo de desarrollo y asegurar la calidad de los productos digitales. <br>Trabaje durante 4 años en el rubro de la gastronomia(en distintos restaurantes y muestras gastronomicas), tanto como cocinero como en la atencion al publico, lo que me ayudo a desarrollarme en ambientes de constante presion y gran resistencia al esfuerzo, cualidades que en este momento quiero mutar y aprovechar en la industria tech. Formacion en metodologías ágiles como Scrum.</p>
+    </section>
+    
+    <!-- SKILLS -->
+    <section id="skills" class="container my-5 text-center">
+        <h2 class="fw-bold">Tecnologías</h2>
+        <div class="row mt-4">
+            <div class="col-md-3"><img src="icons/html.png" alt="HTML" class="tech-icon"></div>
+            <div class="col-md-3"><img src="icons/css.png" alt="CSS" class="tech-icon"></div>
+            <div class="col-md-3"><img src="icons/js.png" alt="JavaScript" class="tech-icon"></div>
+            <div class="col-md-3"><img src="icons/cypress-1.svg" alt="Node.js" class="tech-icon"></div>
+        </div>
+    </section>
+    
+    
+    <!-- PROJECTS -->
+    <section id="projects" class="container my-5 text-center">
+        <h2 class="fw-bold">Mis Proyectos</h2>
+        <div class="row mt-4">
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/CapturaLC.PNG" class="card-img-top" alt="Proyecto 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Las Carmencitas Resto</h5>
+                        <p class="card-text">Pagina web en proceso para el restaurante Las Carmencitas en Villa Allende, Cordoba, Argentina.
+                            <br>Tecnologias utilizadas: HTML, CSS, JS, Bootstrap.
+                        </p>
+                        <a href="https://github.com/Joaqquintero/JSentrega" class="btn btn-outline-primary" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/Testing.PNG" class="card-img-top" alt="Proyecto 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Testing QA</h5>
+                        <p class="card-text">Pruebas y reportes de testing funcional dentro de el sitio de ParaBank y testeo de API dentro de la consola de POSTMAN.
+                            <br>Herramientas utilizadas: POSTMAN, Office, Jira, Lighthouse, Chrome Dev Tools. </p>
+                        <a href="https://drive.google.com/drive/folders/16Kd4JG1uVMMbS2e4XQnRih_4oiP1ob8p?usp=sharing" class="btn btn-outline-primary" target="_blank">Ver más</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card shadow-sm">
+                    <img src="img/Cypressopen.PNG" class="card-img-top" alt="Proyecto 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Testing Automatizado</h5>
+                        <p class="card-text">Aun en proceso... Desarrollo de Testing automatizado con Cypress dentro de sitios como ParaBank o mi proyecto de Las Carmencitas</p>
+                        <a href="#" id="btndis" class="btn btn-outline-primary disabled">Ver más</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- CONTACT -->
+    <section id="contact" class="container my-5 text-center">
+        <h2 class="fw-bold">Contáctame</h2>
+        <div class="contact">
+            <p class="lead">¡Estoy abierto a nuevas oportunidades! No dudes en ponerte en contacto conmigo:</p>
+            <div class="contact-info">
+                <p><i class="fas fa-envelope"></i> Email: <a href="mailto:quinterojoaquin80@gmail.com">quinterojoaquin80@gmail.com</a></p>
+                <p><i class="fas fa-phone"></i> Tel: <a href="tel:+543512013833">+54 9 351 201-3833</a></p>
+                <div class="social-icons">
+                    <a href="https://www.linkedin.com/in/rafael-joaquin-quintero-1485b91ab" target="_blank" class="social-link">
+                        <i class="fab fa-linkedin"></i> LinkedIn
+                    </a>
+                    <!-- Puedes agregar más redes sociales aquí -->
+                </div>
+            </div>
+            <a href="mailto:quinterojoaquin80@gmail.com" class="btn btn-primary mt-4">Enviar un correo</a>
+        </div>
+    </section>
+    
+    <script src="script.js"></script>
+</body>
+</html>
